@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20vh;
+  gap: 10% 20%;
+}
+
+.card{
+  max-width: 35%;
+  min-width: 35%;
+  background-color: aliceblue;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
